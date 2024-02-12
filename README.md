@@ -15,6 +15,6 @@ The random forest seems to perform better than the neural network while the resu
 - F. P. Medina et al. use the features return_number and number_of_returns while In my dataset, I have nan values for these features. It could be interesting to study the impact of the different features on the prediction.
 
 
-I noted an important effect of the unbalance of the dataset so I tried to undersample dominant categories. I happens that it has an overall negative effect on the main metrics (precision, recall, f1). 
+I noted an important effect of the unbalance of the dataset so I tried to undersample dominant categories. I happens that it has an overall negative effect on the main metrics (precision, recall, f1) for both the random forest and the neural network. 
 
 Please note that this projet was a simple way for me to get a better understanding of the Lidar data so I did not try all the things they tried (for instance deep auto-encoder to do dimension reduction as it was indicated that it performed worse than PCA) 
