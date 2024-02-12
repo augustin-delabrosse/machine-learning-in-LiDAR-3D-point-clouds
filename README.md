@@ -17,4 +17,4 @@ The random forest seems to perform better than the neural network while the resu
 
 I noted an important effect of the unbalance of the dataset so I tried to undersample dominant categories. I happens that it has an overall negative effect on the main metrics (precision, recall, f1) for both the random forest and the neural network. 
 
-Please note that this projet was a simple way for me to get a better understanding of the Lidar data so I did not try all the things they tried (for instance deep auto-encoder to do dimension reduction as it was indicated that it performed worse than PCA) 
+Please note that this projet was a simple way for me to get a better understanding of the Lidar data so I did not try all the things the authors tried (for instance deep auto-encoder to do dimension reduction as it was indicated that it performed worse than PCA) 
